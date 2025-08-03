@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: digital-raksha-backend
+    env: python
+    region: oregon  # or any other region you prefer
+    plan: free
+    branch: master
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    envVars: []
