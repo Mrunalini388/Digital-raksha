@@ -7,8 +7,7 @@ services:
       python -m spacy download en_core_web_sm
     startCommand: python app.py
     envVars:
-      - key: FLASK_ENV
-        value: production
-      - key: PORT
-        value: 10000
+      - key: PYTHON_VERSION
+        value: 3.10
+
 
